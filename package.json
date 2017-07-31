@@ -1,0 +1,26 @@
+{
+  "name": "test-karma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "brfs": "^1.4.3",
+    "browserify": "^14.4.0",
+    "browserify-shim": "^3.8.14",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "browserify-shim": {
+    "external": "global:External"
+  }
+}

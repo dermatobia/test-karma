@@ -1,0 +1,1 @@
+const Person = require('../src/person.js')
